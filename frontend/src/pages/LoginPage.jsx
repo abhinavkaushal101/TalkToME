@@ -109,10 +109,13 @@ const LoginPage = () => {
       </div>
 
       {/* Right Side - Image/Pattern */}
-      <AuthImagePattern
+      {/* <AuthImagePattern
         title={"Welcome back!"}
         subtitle={"Sign in to continue your conversations and catch up with your messages."}
-      />
+      /> */}
+      <div className="flex justify-centers">
+      <img className=" w-[98%] object-cover" src="/img.png" alt="" />
+      </div>
     </div>
   );
 };
